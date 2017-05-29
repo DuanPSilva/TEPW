@@ -9,7 +9,6 @@
     <meta name="author" content="">
     
     <link rel="shortcut icon" href="favicon.ico" >
-
     <title>Bruna Lange Fotografia</title>
 
     <!-- Bootstrap Core CSS -->
@@ -185,28 +184,28 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <a href="galeria.html">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <a href="galeria.html">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <a href="galeria.html">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <a href="galeria.html">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
                                 </a>
                             </div>
@@ -370,10 +369,7 @@
             }
         }
     });
-    // Disable Google Maps scrolling
-    // See http://stackoverflow.com/a/25904582/1607849
-    // Disable scroll zooming and bind back the click event
-    var onMapMouseleaveHandler = function(event) {
+  var onMapMouseleaveHandler = function(event) {
         var that = $(this);
         that.on('click', onMapClickHandler);
         that.off('mouseleave', onMapMouseleaveHandler);
@@ -388,7 +384,7 @@
             // Handle the mouse leave event
             that.on('mouseleave', onMapMouseleaveHandler);
         }
-        // Enable map zooming with mouse scroll when the user clicks the map
+
     $('.map').on('click', onMapClickHandler);
     </script>
 
